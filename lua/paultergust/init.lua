@@ -1,2 +1,2 @@
-require("paultergust.remap")
 require("paultergust.set")
+require("paultergust.remap")
