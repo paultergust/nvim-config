@@ -21,4 +21,7 @@ return require('packer').startup(function(use)
         use('jremmen/vim-ripgrep')
         use('scrooloose/nerdtree')
         use('scrooloose/nerdcommenter')
+        use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+            require("toggleterm").setup()
+        end}
 end)
