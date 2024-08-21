@@ -60,7 +60,7 @@ packer.startup(function(use)
     use('neovim/nvim-lspconfig')
     use('jremmen/vim-ripgrep')
     use('scrooloose/nerdtree')
-    use('scrooloose/nerdcommenter')
+    use('preservim/nerdcommenter')
     use {"akinsho/toggleterm.nvim", tag = '*', config = function()
         require("toggleterm").setup()
     end}
