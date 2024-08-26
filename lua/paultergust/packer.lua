@@ -76,6 +76,11 @@ packer.startup(function(use)
     use('hrsh7th/cmp-cmdline')
     use('hrsh7th/nvim-cmp')
     use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
+    use({
+        "L3MON4D3/LuaSnip",
+        tag = "v2.*",
+        run = "make install_jsregexp"
+    })
 
     -- Automatically run packer.clean() followed by packer.update() after cloning packer.nvim
     -- Put this at the end after all plugins
