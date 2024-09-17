@@ -5,7 +5,8 @@ vim.keymap.set('n', '<C-p>', builtin.git_files, {})
 require('telescope').setup{
   defaults = {
     file_ignore_patterns = {
-      "node_modules"
+      "node_modules",
+      "_build",
     }
   }
 }
