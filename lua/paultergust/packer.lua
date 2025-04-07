@@ -87,4 +87,5 @@ packer.startup(function(use)
     if PACKER_BOOTSTRAP then
         require("packer").sync()
     end
+    use('rachartier/tiny-inline-diagnostic.nvim')
 end)
