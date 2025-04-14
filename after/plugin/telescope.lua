@@ -8,6 +8,7 @@ require('telescope').setup{
       "node_modules",
       "_build",
       "target",
+      "/__pycache__",
     }
   }
 }
