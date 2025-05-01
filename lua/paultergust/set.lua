@@ -22,3 +22,5 @@ vim.opt.scrolloff=8
 vim.opt.signcolumn='number'
 
 vim.g.mapleader=" "
+
+vim.cmd([[ autocmd BufRead,BufNewFile *.ino set filetype=cpp ]])
