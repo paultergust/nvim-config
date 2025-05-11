@@ -88,4 +88,5 @@ packer.startup(function(use)
         require("packer").sync()
     end
     use('rachartier/tiny-inline-diagnostic.nvim')
+    use { "folke/flash.nvim"}
 end)
