@@ -1,6 +1,4 @@
-local nvim_lsp = require('lspconfig')
-
-nvim_lsp.rust_analyzer.setup({
+vim.lsp.config("rust-analyzer", {
   settings = {
     ["rust-analyzer"] = {
       inlayHints = {
@@ -22,11 +20,4 @@ nvim_lsp.rust_analyzer.setup({
     -- Enable the LSP's virtual text handler, ensuring error messages show up properly
     vim.api.nvim_buf_set_option(bufnr, 'omnifunc', 'v:lua.vim.lsp.omnifunc')
   end,
-})
-
--- Clangd setup
-nvim_lsp.clangd.setup({
-  on_attach = on_attach,
-  cmd = { "clangd" }, -- optionally specify a full path if not in $PATH
-  filetypes = { "c", "cpp", "objc", "objcpp" },
 })
