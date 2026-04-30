@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/paultergust/.cache/nvim/packer_hererocks/2.1.1753364724/share/lua/5.1/?.lua;/Users/paultergust/.cache/nvim/packer_hererocks/2.1.1753364724/share/lua/5.1/?/init.lua;/Users/paultergust/.cache/nvim/packer_hererocks/2.1.1753364724/lib/luarocks/rocks-5.1/?.lua;/Users/paultergust/.cache/nvim/packer_hererocks/2.1.1753364724/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/paultergust/.cache/nvim/packer_hererocks/2.1.1753364724/lib/lua/5.1/?.so"
+local package_path_str = "/Users/paultergust/.cache/nvim/packer_hererocks/2.1.1774896198/share/lua/5.1/?.lua;/Users/paultergust/.cache/nvim/packer_hererocks/2.1.1774896198/share/lua/5.1/?/init.lua;/Users/paultergust/.cache/nvim/packer_hererocks/2.1.1774896198/lib/luarocks/rocks-5.1/?.lua;/Users/paultergust/.cache/nvim/packer_hererocks/2.1.1774896198/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/paultergust/.cache/nvim/packer_hererocks/2.1.1774896198/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -129,11 +129,6 @@ _G.packer_plugins = {
     path = "/Users/paultergust/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
-  ["markdown.nvim"] = {
-    loaded = true,
-    path = "/Users/paultergust/.local/share/nvim/site/pack/packer/start/markdown.nvim",
-    url = "https://github.com/MeanderingProgrammer/markdown.nvim"
-  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/Users/paultergust/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -204,6 +199,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/paultergust/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["render-markdown.nvim"] = {
+    loaded = true,
+    path = "/Users/paultergust/.local/share/nvim/site/pack/packer/start/render-markdown.nvim",
+    url = "https://github.com/MeanderingProgrammer/render-markdown.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
