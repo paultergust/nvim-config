@@ -200,11 +200,6 @@ _G.packer_plugins = {
     path = "/Users/paultergust/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["render-markdown.nvim"] = {
-    loaded = true,
-    path = "/Users/paultergust/.local/share/nvim/site/pack/packer/start/render-markdown.nvim",
-    url = "https://github.com/MeanderingProgrammer/render-markdown.nvim"
-  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/paultergust/.local/share/nvim/site/pack/packer/start/telescope.nvim",
