@@ -9,6 +9,9 @@ require('telescope').setup{
       "_build",
       "target",
       "/__pycache__",
-    }
+    },
+    preview = {
+        treesitter = false
+    },
   }
 }
