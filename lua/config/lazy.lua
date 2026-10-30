@@ -11,8 +11,8 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-    spec = { { import = "paultergust.plugins" } },
-    -- Existing after/plugin configuration expects plugins to load at startup.
+    spec = { { import = "plugins" } },
+    -- Preserve startup behavior; individual specs can opt into lazy loading.
     defaults = { lazy = false },
     install = { colorscheme = { "kanagawa" } },
 })

@@ -1,7 +1,3 @@
-require("paultergust.set")
-require("paultergust.remap")
-require("paultergust.lazy")
-
 vim.diagnostic.config({
   signs = true,  -- Show signs in the sign column
   update_in_insert = false,  -- Don't show diagnostics in insert mode
