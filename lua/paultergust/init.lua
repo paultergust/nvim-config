@@ -1,5 +1,6 @@
 require("paultergust.set")
 require("paultergust.remap")
+require("paultergust.lazy")
 
 vim.diagnostic.config({
   signs = true,  -- Show signs in the sign column
